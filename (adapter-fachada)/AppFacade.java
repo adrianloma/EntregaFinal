@@ -1,90 +1,165 @@
-class DifficultProduct {
-  char nameChars[] = new char[7];
-  public DifficultProduct() { }
-  public void setFirstNameCharacter(char c) {
-    nameChars[0] = c;
-  }
-  public void setSecondNameCharacter(char c) {
-    nameChars[1] = c;
-  }
-  public void setThirdNameCharacter(char c) {
-    nameChars[2] = c;
-  }
-  public void setFourthNameCharacter(char c) {
-    nameChars[3] = c;
-  }
-  public void setFifthNameCharacter(char c) {
-    nameChars[4] = c;
-  }
-  public void setSixthNameCharacter(char c) {
-    nameChars[5] = c;
-  }
-  public void setSeventhNameCharacter(char c) {
-    nameChars[6] = c;
-  }
-  public char[] getName() {
-    return nameChars;
-  }
+import java.util.HashMap;
+
+public class AppFacade{
+	
+	public static void main(String[] args) {
+		ControlPedido controlPedido = new ControlPedido();
+		controlPedido.setClave(666);
+		controlPedido.setNombre("Julio Alvarado");
+		System.out.println("Clave del cliente: " + controlPedido.getClave());
+		System.out.println("Nombre del cliente: " + controlPedido.getNombre() + "\n");
+		controlPedido.printInfo();
+		System.out.println("\nTotal: $" + controlPedido.getPedidoTotal() + " MXN");		
+	}
 }
 
-class SimpleProductFacade {
-  DifficultProduct difficultProduct;
-  public SimpleProductFacade() {
-    difficultProduct = new DifficultProduct();
-  }
-  public void setName(String name) {
-    char chars[] = name.toCharArray();
-    if(chars.length > 0)
-      difficultProduct.setFirstNameCharacter(chars[0]);
-    if(chars.length > 1)
-      difficultProduct.setSecondNameCharacter(chars[1]);
-    if(chars.length > 2)
-      difficultProduct.setThirdNameCharacter(chars[2]);
-    if(chars.length > 3)
-      difficultProduct.setFourthNameCharacter(chars[3]);
-    if(chars.length > 4)
-      difficultProduct.setFifthNameCharacter(chars[4]);
-    if(chars.length > 5)
-      difficultProduct.setSixthNameCharacter(chars[5]);
-    if(chars.length > 6)
-      difficultProduct.setSeventhNameCharacter(chars[6]);
-  }    
-  public String getName() {
-    return new String(difficultProduct.getName());
-  }
+class ControlPedido{
+	Cliente cliente;
+	Pedido pedido;
+	Detalle detalle;
+	
+	public ControlPedido(){
+		cliente = new Cliente();
+		pedido = new Pedido();
+		detalle = new Detalle();
+	}
+	
+	public void setClave(int c){
+		
+		cliente.setClave(c);
+	}
+
+	public void setNombre(String n){
+		
+		cliente.setNombre(n);
+	}
+
+	public int getClave(){
+		return cliente.getClave();
+	}
+	
+	public String getNombre(){
+		return cliente.getNombre();
+	}
+	
+	public double getPedidoTotal(){
+		return pedido.getTotal();
+	}
+	
+	public int getNumProductos(){
+		return pedido.getProductos();
+	}
+
+	public void printInfo(){
+		Articulo [] articulo = detalle.getDetalle();
+		pedido.setProductos(3);
+		System.out.println("Detalles: " + "\n");
+		System.out.println("Productos: " + getNumProductos());
+		System.out.println(articulo[0].getNombre() + " $" + articulo[0].getCosto() + " MXN");
+		System.out.println(articulo[1].getNombre() + " $" + articulo[1].getCosto() + " MXN");
+		System.out.println(articulo[2].getNombre() + " $" + articulo[2].getCosto() + " MXN");
+		pedido.setTotal(articulo[0].getCosto()+ articulo[1].getCosto() + articulo[2].getCosto());
+			
+	}
 }
 
-public class AppFacade {
-  public static void main(String args[]) {
-    SimpleProductFacade simpleProductFacade = 
-        new SimpleProductFacade();
-    simpleProductFacade.setName("printer");
-    System.out.println("This product is a " + 
-      simpleProductFacade.getName());
-  }
+class Cliente{
+	int clave;
+	String nombre;
+	
+	public Cliente(){ 
+		//vacio
+	}
+	
+	public int getClave(){
+		return clave;
+	}
+	
+	public void setClave(int c){
+		clave = c;
+	}	
+
+	public String getNombre(){
+		return nombre;
+	}
+	
+	public void setNombre(String n){
+		nombre = n;
+	}	
 }
 
-// EJERCICIO: Implementar una aplicacion que utilice el patron fachada.
-// Deseamos preparar la lista de articulos que se surtiran a un cliente.
-// El sistema tiene cuatro clases: Cliente, Pedido, Detalle, y Articulo.
+class Pedido{
+	double total;
+	int productos;
+	public Pedido(){ 
+		//vacio
+	}
+	
+	
+	public void setProductos(int p){
+		productos = p;
+	}
 
-// Implementar una clase ControlPedido que haga transparente a la aplicaciÃ³n
-// cuales clases deben ser invocadas para tener todos los detalles del pedido,
-// solo conociendo la clave del cliente.
-// Para ello, crear una intancia de Cliente, una de Pedido, y una de Detalle 
-// con los articulos correspondientes.
-// La aplicaciÃ³n cliente debera mostrar los datos de cliente y cuales son los
-// articulos que deben preparase para enviarse a su direccion y el costo total del pedido.
+	public void setTotal(double t){
+		total = t;
+	}
 
-// El ejercicio se simplifica si utilizamos la clase HashMap en Detalle cuyo 
-// contenido serian instancias de Articulo. Para un ejemplo, consultar la liga
-//  http://www.mkyong.com/java/how-to-use-hashmap-tutorial-java/
-// El constructor de Detalle crea tres intancias de Articulo utilizando hash.put()
-// las cuales seran obtenidas mediante un metodo getDetalle() que regrese un
-// vector o un arreglo con la lista de articulos.
-// El metodo getTotal() en Detalle regresa el costo total del pedido.
- 
+	public int getProductos(){
+		return productos;
+	}
+	
+	public double getTotal(){
+		return total;
+	}
+	
+}
 
+class Detalle{
+	HashMap<Integer, Articulo> articulos;
+	
+	public Detalle(){
+		articulos = new HashMap<Integer, Articulo>();
+		articulos.put(1, new Articulo("Leche", 60));
+		articulos.put(2, new Articulo("Cervezas", 20));
+		articulos.put(3, new Articulo("Llantas", 2500));
+	}
+	
+	public Articulo[] getDetalle(){
+		
+		Articulo articulo1 = articulos.get(1);
+		Articulo articulo2 = articulos.get(2);		
+		Articulo articulo3 = articulos.get(3);
+		Articulo [] art = {articulo1, articulo2, articulo3};
+		return art;
+	}
+	
+	
+}
 
+class Articulo{	
+	String nombre;
+	double costo;
+	public Articulo(String n, double c){
+		nombre = n;
+		costo = c;
+	}
+	//sets
+	public void setNombre(String n){
+		nombre = n;
+	}
 
-  
+	public void setCosto(double d){
+		costo = d;
+	}//end sets	
+	
+	//gets
+	public String getNombre(){
+		return nombre;
+		
+	}
+	
+	public double getCosto(){
+		return costo;
+	}//end gets
+
+}
