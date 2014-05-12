@@ -1,39 +1,48 @@
-
 abstract class Connection  {
   public Connection() { }
   public String description() {
     return "Generic";
   }
+  public abstract int operation (int a, int b);
 }
 
-class OracleConnection extends Connection {
-  public OracleConnection() { }
+class SumaConnection extends Connection {
+  public SumaConnection() { }
   public String description() {
-    return "Oracle";
+    return "suma";
+  }
+  public int operation (int a, int b) {
+	return a + b;
   }
 }
 
-class SqlServerConnection extends Connection {
-  public SqlServerConnection() { }
+class RestaConnection extends Connection {
+  public RestaConnection() { }
   public String description() {
-    return "SQL Server";
+    return "resta";
+  }
+   public int operation (int a, int b) {
+	return a - b;
   }
 }
 
-class MySqlConnection extends Connection {
-  public MySqlConnection() { }
+class MultiplicacionConnection extends Connection {
+  public MultiplicacionConnection() { }
   public String description() {
-      return "MySQL";
+    return "multiplicacion";
+  }
+   public int operation (int a, int b) {
+	return a * b;
   }
 }
 
-class Suma extends Connection {
-  public Suma() { }
+class DivisionConnection extends Connection {
+  public DivisionConnection() { }
   public String description() {
-      return "Suma";
+    return "division";
   }
-  public int operacion(int prim, int sec){
-    return prim+sec;
+   public int operation (int a, int b) {
+	return a / b;
   }
 }
 
@@ -44,33 +53,22 @@ class ConnectionFactory {
     type = t;
   }
   public Connection createConnection() {
-    if (type.equals("Oracle")){
-      return new OracleConnection();
+    if (type.equals("suma")){
+      return new SumaConnection();
     }
-    else if (type.equals("SQL Server")){
-      return new SqlServerConnection();
+    else if (type.equals("resta")){
+      return new RestaConnection();
     }
-    else if (type.equals("MySQL")){
-      return new MySqlConnection();
+    else if (type.equals("multiplicacion")){
+      return new MultiplicacionConnection();
     }
+  else if (type.equals("division")){
+      return new DivisionConnection();
+    }
+  
     else return null;
   }
 }
-
-public class AppFactory {
-  public static void main(String args[]) {
-    ConnectionFactory factory;
-    factory = new ConnectionFactory("Oracle");
-    Connection connection = factory.createConnection();
-    System.out.println("Estas conectado a " + connection.description());
-  }
-}
-
-/* 
-EJERCICIO: Implementar el patron Factory para conectarse a un servicio remoto
-      que permita aplicar las operaciones aritmeticas basicas (+, -, *, / )
-      a dos numeros que se enviarÃ­an como parametros. Solo es necesario que se
-      reciba un mensaje sobre la operacion a la que se hizo la conexion.  
 
 public class AppFactory {
   public static void main(String args[]) {
@@ -81,7 +79,3 @@ public class AppFactory {
     System.out.println("Resultado de la operacion: " + connection.operation(8, 2));
   }
 }
-
-EJERCICIO (opciÃ³n 2): Implementar el ejemplo que se ilustra en el slide 17 de la
-      presentacion.
-*/
