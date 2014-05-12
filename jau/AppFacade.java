@@ -5,12 +5,12 @@ public class AppFacade{
 	public static void main(String[] args) {
 		ControlPedido controlPedido = new ControlPedido();
 		controlPedido.setClave(123);
-		controlPedido.setNombre("Manuel");
-		System.out.println("Clave cliente: " + controlPedido.getClave()+ "\n");
-		System.out.println("Nombre cliente: " + controlPedido.getNombre()+ "\n");
+		controlPedido.setNombre("Julio Alvarado");
+		System.out.println("Clave del cliente: " + controlPedido.getClave()+ "\n");
+		System.out.println("Nombre del cliente: " + controlPedido.getNombre()+ "\n");
 		controlPedido.desplegarDetalle();
-		System.out.println("\nProductos a preparar: " + controlPedido.getNumProductos());
-		System.out.println("Costo total a pagar: " + controlPedido.getPedidoTotal());		
+		System.out.println("\nProductos: " + controlPedido.getNumProductos());
+		System.out.println("Total: $" + controlPedido.getPedidoTotal()) + " MXN";		
 	}
 }
 
@@ -25,33 +25,22 @@ class ControlPedido{
 		detalle = new Detalle();
 	}
 	
-	public int getClave(){
-		return cliente.getClave();
-	}
-	
 	public void setClave(int c){
 		
 		cliente.setClave(c);
 	}
-	
-	public String getNombre(){
-		return cliente.getNombre();
-	}
-	
+
 	public void setNombre(String n){
 		
 		cliente.setNombre(n);
 	}
-		
-	public void desplegarDetalle(){
-		Articulo [] articulo = detalle.getDetalle();
-		System.out.println("Detalle de Pedido: " + "\n");
-		System.out.println(articulo[0].getNombre() + " " + articulo[0].getCosto());
-		System.out.println(articulo[1].getNombre() + " " + articulo[1].getCosto());
-		System.out.println(articulo[2].getNombre() + " " + articulo[2].getCosto());
-		pedido.setProductos(3);
-		pedido.setTotal(articulo[0].getCosto()+ articulo[1].getCosto() + articulo[2].getCosto());
-			
+
+	public int getClave(){
+		return cliente.getClave();
+	}
+	
+	public String getNombre(){
+		return cliente.getNombre();
 	}
 	
 	public double getPedidoTotal(){
@@ -61,13 +50,26 @@ class ControlPedido{
 	public int getNumProductos(){
 		return pedido.getProductos();
 	}
+
+	public void desplegarDetalle(){
+		Articulo [] articulo = detalle.getDetalle();
+		System.out.println("Detalles: " + "\n");
+		System.out.println(articulo[0].getNombre() + " $" + articulo[0].getCosto() + " MXN");
+		System.out.println(articulo[1].getNombre() + " $" + articulo[1].getCosto() + " MXN");
+		System.out.println(articulo[2].getNombre() + " $" + articulo[2].getCosto() + " MXN");
+		pedido.setProductos(3);
+		pedido.setTotal(articulo[0].getCosto()+ articulo[1].getCosto() + articulo[2].getCosto());
+			
+	}
 }
 
 class Cliente{
 	int clave;
 	String nombre;
 	
-	public Cliente(){ }
+	public Cliente(){ 
+		//vacio
+	}
 	
 	public int getClave(){
 		return clave;
@@ -89,25 +91,26 @@ class Cliente{
 class Pedido{
 	double total;
 	int productos;
-	public Pedido(){ }
-	
-	public int getProductos(){
-		return productos;
+	public Pedido(){ 
+		//vacio
 	}
+	
 	
 	public void setProductos(int p){
 		productos = p;
+	}
+
+	public void setTotal(double t){
+		total = t;
+	}
+
+	public int getProductos(){
+		return productos;
 	}
 	
 	public double getTotal(){
 		return total;
 	}
-	
-	public void setTotal(double t){
-		total = t;
-	}
-	
-	
 	
 }
 
@@ -116,9 +119,9 @@ class Detalle{
 	
 	public Detalle(){
 		articulos = new HashMap<Integer, Articulo>();
-		articulos.put(1, new Articulo("Laptop", 10000));
-		articulos.put(2, new Articulo("Monitor", 2000));
-		articulos.put(3, new Articulo("iPhone", 5000));
+		articulos.put(1, new Articulo("Leche", 60));
+		articulos.put(2, new Articulo("Cervezas", 20));
+		articulos.put(3, new Articulo("Llantas", 2500));
 	}
 	
 	public Articulo[] getDetalle(){
@@ -140,11 +143,16 @@ class Articulo{
 		nombre = n;
 		costo = c;
 	}
-	
+	//sets
 	public void setNombre(String n){
 		nombre = n;
 	}
+
+	public void setCosto(double d){
+		costo = d;
+	}//end sets	
 	
+	//gets
 	public String getNombre(){
 		return nombre;
 		
@@ -152,9 +160,6 @@ class Articulo{
 	
 	public double getCosto(){
 		return costo;
-	}
-	
-	public void setCosto(double d){
-		costo = d;
-	}	
+	}//end gets
+
 }

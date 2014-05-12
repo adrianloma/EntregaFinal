@@ -3120,3 +3120,39 @@ May 06, 2014 4:29:21 AM org.apache.coyote.AbstractProtocol destroy
 INFO: Destroying ProtocolHandler ["http-bio-8080"]
 May 06, 2014 4:29:21 AM org.apache.coyote.AbstractProtocol destroy
 INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 12, 2014 2:20:40 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 12, 2014 2:20:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 12, 2014 2:20:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 12, 2014 2:20:41 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 521 ms
+May 12, 2014 2:20:41 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 12, 2014 2:20:41 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 12, 2014 2:20:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/EntregaFinal/apache-tomcat-7.0.52/webapps/Cajero
+May 12, 2014 2:20:42 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [297] milliseconds.
+May 12, 2014 2:20:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/EntregaFinal/apache-tomcat-7.0.52/webapps/docs
+May 12, 2014 2:20:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/EntregaFinal/apache-tomcat-7.0.52/webapps/examples
+May 12, 2014 2:20:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/EntregaFinal/apache-tomcat-7.0.52/webapps/host-manager
+May 12, 2014 2:20:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/EntregaFinal/apache-tomcat-7.0.52/webapps/manager
+May 12, 2014 2:20:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/EntregaFinal/apache-tomcat-7.0.52/webapps/proy
+May 12, 2014 2:20:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/EntregaFinal/apache-tomcat-7.0.52/webapps/Revista
+May 12, 2014 2:20:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/EntregaFinal/apache-tomcat-7.0.52/webapps/ROOT
+May 12, 2014 2:20:43 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 12, 2014 2:20:43 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 12, 2014 2:20:43 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2388 ms

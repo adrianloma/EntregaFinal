@@ -1,84 +1,98 @@
-// La clase Division contiene varios VicePresidentes (VP)
-// El programa lista los VPs de una Division  
-
 import java.util.Iterator;
 
-class VP  { //VicePresident
-  private String name;
-  private String division;
-  public VP(String n, String d) {
-    name = n;
-    division = d;
-  }
-  public String getName() {
-    return name;
-  }
-  public void print() {
-    System.out.println("Name: " + name + " Division: " + division);
-  }
+class Compra{
+
+	private Articulo [] articulos = new Articulo[100];
+	public int size = 0;
+
+	public Compra(){}
+
+	public void add(Articulo a){
+		articulos[size] = a;
+		size++;
+	}
+	public void add(String a, int b){
+		articulos[size] = new Articulo(a, b);
+		size++;
+	}
+	public CompraIterator iterator(){
+		return new CompraIterator(articulos);
+	}
 }
 
-class Division { // Division en la que trabajan los VP
-  private VP[] VPs = new VP[100]; // Coleccion/Agregado
-  private int number = 0;
-  private String name;
-  public Division(String n) {
-    name = n;
-  }
-  public String getName() {
-    return name;
-  }
-  public void add(String n) {
-    VP vp = new VP(n, name);
-    VPs[number++] = vp;
-  }
-  public DivisionIterator iterator() {
-    return new DivisionIterator(VPs);
-  }
-}
-
-
-class DivisionIterator implements Iterator {
-  private VP[] VPs;
-  private int location = 0;
-  public DivisionIterator(VP[] v) {
-    VPs = v;
-  }
-  public VP next() {
-    return VPs[location++];
-  }
-  public boolean hasNext() {
-    if(location < VPs.length && VPs[location] != null){
-      return true;
-    } else {
-      return false; 
-    }
-  }
+class CompraIterator implements Iterator {
+	private Articulo[] articulos;
+	int iter=0;
+	public CompraIterator(Articulo[] a){
+		articulos = a;
+	}
+	public Articulo next() {
+		return articulos[iter++];
+	}
+	public boolean hasNext() {
+		if(iter < articulos.length && articulos[iter] != null){
+			return true;
+		} else {
+			return false; 
+		}
+	}
   public void remove() {  } //Requerida por la interface Iterator
+
 }
 
+class Articulo{
+	private String name;
+	private int price;
+
+	public Articulo(String name, int price){
+		this.name = name;
+		this.price = price;
+	}
+
+	public Articulo(){
+		//nothin here :-O
+	}
+
+	public void print(){
+		System.out.println(name + " " + price +" MXN");
+	}
+
+	public void setName(String name){
+		this.name = name;
+	}
+
+	public void setPrice(int price){
+		this.price = price;
+	}
+
+	public String getName(){
+		return name;
+	}
+
+	public int getPrice(){
+		return price;
+	}
+
+}
 
 public class AppIterator {
-  Division division;
-  DivisionIterator iterator;
-  public static void main(String args[]) {
-    AppIterator app = new AppIterator();
-  }
-  public AppIterator() {
-    division = new Division("Sales");
-    division.add("Ted");
-    division.add("Bob");
-    division.add("Carol");
-    division.add("Alice");
-    iterator = division.iterator();
-    while (iterator.hasNext()){
-      VP vp = iterator.next();
-      vp.print();
-    }
-  }
+	Compra compras;
+	CompraIterator iterator;
+	public static void main(String args[]) {
+		AppIterator app = new AppIterator();
+	}
+	public AppIterator() {
+		compras = new Compra();
+		compras.add("Leche", 100);
+		compras.add("Limones", 200);
+		compras.add("Limonada", 10000);
+		compras.add("Mermelada", 20);
+		iterator = compras.iterator();
+		System.out.println("Los articulos disponibles son: ");
+		while (iterator.hasNext()){
+			System.out.print("\t");
+			Articulo art = iterator.next();
+			art.print();
+		}
+	}
 }
-
-/* EJERCICIO: La clase Compra incluye varios Articulos.
-      Implementar el patron Iterator para mostrar los articulos a los que
-      se refiere una compra.
-*/
