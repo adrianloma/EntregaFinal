@@ -1,33 +1,33 @@
 interface Celsius {
-  public void setTemperatura(int t);
-  public int getTemperatura();
+  public void setTemperatura(float t);
+  public float getTemperatura();
 }
 
 class Temperatura implements Celsius{
-  int temp;
+  float temp;
 
-  public int getTemperatura(){
+  public float getTemperatura(){
     return temp;
   }
-  public void setTemperatura(int t){
+  public void setTemperatura(float t){
     temp = t;
   }
 
 }
 
 interface Fahrenheit {
-  public void setTemperature(int t);
-  public int getTemperature();
+  public void setTemperature(float t);
+  public float getTemperature();
 }
 
 class Temperature implements Fahrenheit{
-  int temp;
+  float temp;
 
-  public int getTemperature(){
+  public float getTemperature(){
     return temp;
   }
 
-  public void setTemperature(int t){
+  public void setTemperature(float t){
     temp = t;
   }
 }
@@ -41,11 +41,11 @@ class TempAdapter implements Celsius {
     fahrenObject = new Temperature();
   }
 
-  public void setTemperatura(int t) {
+  public void setTemperatura(float t) {
     fahrenObject.temp = t*9/5 + 32;
   }
 
-  public int getTemperatura() {
+  public float getTemperatura() {
     return (fahrenObject.temp - 32) * 5/9;
   }
 
