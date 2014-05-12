@@ -3,7 +3,7 @@ interface Celsius {
   public int getTemperatura();
 }
 
-class Temperatura implements Celcius{
+class Temperatura implements Celsius{
   int temp;
 
   public int getTemperatura(){
