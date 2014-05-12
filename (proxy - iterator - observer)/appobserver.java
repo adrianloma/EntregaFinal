@@ -1,7 +1,3 @@
-//Una base de datos es el sujeto a observar. Cada vez que una operacion es
-//efectuada sobre la base de datos, todos los observadores deben ser notificados
-//sobre la operacion realizada.
-
 import java.util.*;
 
 interface Subject  {
@@ -11,16 +7,15 @@ interface Subject  {
 }
 
 interface Observer  {
-  public void update(String operation, String record);
+  public void update(String participante, String mensaje);
 }
 
-
-class Database implements Subject {
+class Chat implements Subject {
   private Vector<Observer> observers;
-  private String operation;
-  private String record;
+  private String mensaje;
+  private String participante;
   
-  public Database() {
+  public Chat() {
     observers = new Vector<Observer>();
   }
 
@@ -34,62 +29,39 @@ class Database implements Subject {
      
   public void notifyObservers() {
     for (int loopIndex = 0; loopIndex < observers.size(); loopIndex++) {
-      Observer observer = observers.get(loopIndex);
-      observer.update(operation, record);
+      Observer observer = (Observer)observers.get(loopIndex);
+      observer.update(participante, mensaje);
     }
   }
 
-  public void editRecord(String operation, String record) {
-    this.operation = operation;
-    this.record = record;
+  public void editRecord(String participante, String mensaje) {
+    this.mensaje = mensaje;
+  this.participante = participante;
     notifyObservers();
   }
 }
 
-class Archiver implements Observer  {
-  public Archiver(){ }
+class Participante implements Observer  {
+  public Participante(){ }
 
-  public void update(String operation, String record) {
-    System.out.println("The archiver says a " + operation +
-      " operation was performed on " + record);
-  }
-}
-
-
-class Client implements Observer {
-  public Client() { }
-
-  public void update(String operation, String record) {
-    System.out.println("The client says a " + operation +
-      " operation was performed on " + record);
-  }
-} 
-
-
-class Boss implements Observer {
-  public Boss(){ }
-  public void update(String operation, String record){
-    System.out.println("The boss says a " + operation +
-      " operation was performed on " + record);
+  public void update(String Participante, String mensaje) {
+    System.out.println(Participante+": " + mensaje);
   }
 }
 
 public class AppObserver {
   public static void main(String args[]) {
-    Database database = new Database();
-    Observer archiver = new Archiver();
-    Observer client = new Client();
-    Observer boss = new Boss();
-    database.registerObserver(archiver);
-    database.registerObserver(client);
-    database.registerObserver(boss);
-    database.editRecord("delete", "record 1");
+    Chat chat = new Chat();
+    Observer p1 = new Participante();
+    Observer p2 = new Participante();
+    Observer p3 = new Participante();
+    chat.registerObserver(p1);
+    chat.registerObserver(p2);
+    chat.registerObserver(p3);
+    while (true){
+      String participante = System.console( ).readLine();
+      String mensaje = System.console( ).readLine();
+      chat.editRecord(participante, mensaje);
+    }
   }
 }
-
-/*
- EJERCICIO: 3 personas (Manager, Seller y Client) participan en una sesion
-  multi-chat. Cada vez que una persona envia un mensaje, todos los
-  participantes lo reciben. La aplicacion debe desplegar el mensaje que recibe
-  cada participante.
- */ 
