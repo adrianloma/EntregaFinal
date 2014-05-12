@@ -1,0 +1,1567 @@
+May 06, 2014 12:19:31 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 12:19:31 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:19:31 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:19:31 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 12:19:31 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/proy] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 12:19:31 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/Revista] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 12:19:31 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/Cajero] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 12:19:31 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:19:31 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:19:31 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:19:31 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:19:51 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 12:19:51 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:19:51 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:19:51 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 497 ms
+May 06, 2014 12:19:52 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 12:19:52 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 12:19:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 12:19:52 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [232] milliseconds.
+May 06, 2014 12:19:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 12:19:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 12:19:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 12:19:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 12:19:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 12:19:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 12:19:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 12:19:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 12:19:54 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:19:54 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:19:54 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2596 ms
+May 06, 2014 12:35:40 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 12:35:40 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:35:40 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:35:40 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 12:35:40 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/proy] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 12:35:40 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/Revista] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 12:35:40 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/AMSSProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 12:35:40 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:35:40 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:35:40 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:35:40 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:35:54 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 12:35:55 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:35:55 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:35:55 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 481 ms
+May 06, 2014 12:35:55 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 12:35:55 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 12:35:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 12:35:56 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [346] milliseconds.
+May 06, 2014 12:35:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 12:35:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 12:35:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 12:35:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 12:35:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 12:35:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 12:35:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 12:35:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 12:35:57 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:35:57 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:35:57 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2698 ms
+May 06, 2014 12:48:39 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 12:48:39 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:48:39 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:48:39 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 12:48:39 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/proy] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 12:48:39 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/Revista] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 12:48:39 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/AMSSProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 12:48:39 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:48:39 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:48:39 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:48:39 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:48:45 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 12:48:45 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:48:45 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:48:45 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 510 ms
+May 06, 2014 12:48:45 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 12:48:45 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 12:48:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 12:48:46 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [231] milliseconds.
+May 06, 2014 12:48:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 12:48:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 12:48:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 12:48:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 12:48:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 12:48:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 12:48:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 12:48:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 12:48:47 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:48:47 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:48:47 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2434 ms
+May 06, 2014 12:52:01 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 12:52:01 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:52:01 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:52:01 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 12:52:01 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/proy] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 12:52:01 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/Revista] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 12:52:01 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/AMSSProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 12:52:01 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:52:01 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:52:01 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:52:01 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:53:24 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 12:53:24 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:53:24 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:53:24 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 484 ms
+May 06, 2014 12:53:24 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 12:53:24 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 12:53:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 12:53:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 12:53:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 12:53:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 12:53:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 12:53:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 12:53:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 12:53:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 12:53:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 12:53:26 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:53:26 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:53:26 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2214 ms
+May 06, 2014 12:54:09 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 12:54:09 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:54:09 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:54:10 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 12:54:10 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/proy] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 12:54:10 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/Revista] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 12:54:10 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/AMSSProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 12:54:10 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:54:10 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:54:10 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:54:10 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:54:12 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 12:54:12 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:54:12 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:54:12 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 489 ms
+May 06, 2014 12:54:12 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 12:54:12 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 12:54:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 12:54:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 12:54:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 12:54:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 12:54:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 12:54:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 12:54:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 12:54:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 12:54:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 12:54:15 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 12:54:15 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 12:54:15 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2368 ms
+May 06, 2014 1:01:28 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 1:01:28 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:01:28 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:01:28 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 1:01:28 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/proy] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 1:01:28 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/Revista] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 1:01:28 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/AMSSProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 1:01:28 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:01:28 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:01:28 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:01:28 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:01:33 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 1:01:33 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:01:33 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:01:33 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 513 ms
+May 06, 2014 1:01:33 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 1:01:33 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 1:01:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 1:01:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 1:01:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 1:01:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 1:01:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 1:01:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 1:01:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 1:01:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 1:01:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 1:01:35 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:01:35 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:01:35 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2278 ms
+May 06, 2014 1:03:41 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 1:03:41 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:03:41 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:03:41 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 1:03:41 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:03:41 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:03:41 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:03:41 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:03:42 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 1:03:43 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:03:43 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:03:43 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 528 ms
+May 06, 2014 1:03:43 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 1:03:43 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 1:03:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 1:03:44 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [304] milliseconds.
+May 06, 2014 1:03:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 1:03:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 1:03:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 1:03:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 1:03:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 1:03:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 1:03:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 1:03:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 1:03:45 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:03:45 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:03:45 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2524 ms
+May 06, 2014 1:21:22 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 1:21:22 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:21:22 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:21:23 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 1:21:23 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:21:23 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:21:23 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:21:23 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:21:26 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 1:21:26 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:21:26 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:21:26 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 509 ms
+May 06, 2014 1:21:26 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 1:21:26 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 1:21:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 1:21:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 1:21:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 1:21:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 1:21:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 1:21:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 1:21:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 1:21:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 1:21:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 1:21:29 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:21:29 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:21:29 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2225 ms
+May 06, 2014 1:28:05 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 1:28:05 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:28:05 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:28:05 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 1:28:05 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/proy] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 1:28:05 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/Revista] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 1:28:05 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/AMSSProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 1:28:05 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:28:05 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:28:05 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:28:05 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:28:39 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 1:28:39 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:28:40 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:28:40 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 487 ms
+May 06, 2014 1:28:40 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 1:28:40 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 1:28:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 1:28:40 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [304] milliseconds.
+May 06, 2014 1:28:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 1:28:41 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 1:28:41 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 1:28:41 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 1:28:41 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 1:28:41 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 1:28:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 1:28:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 1:28:42 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:28:42 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:28:42 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2390 ms
+May 06, 2014 1:29:19 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 1:29:19 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:29:19 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:29:19 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 1:29:20 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:29:20 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:29:20 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:29:20 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:29:30 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 1:29:30 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:29:30 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:29:30 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 483 ms
+May 06, 2014 1:29:30 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 1:29:30 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 1:29:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 1:29:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 1:29:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 1:29:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 1:29:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 1:29:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 1:29:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 1:29:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 1:29:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 1:29:32 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 1:29:32 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 1:29:32 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2191 ms
+May 06, 2014 2:12:57 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 2:12:57 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 2:12:57 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 2:12:57 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 2:12:57 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 2:12:57 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 2:12:57 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 2:12:57 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 2:12:58 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 2:12:58 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 2:12:58 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 2:12:58 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 504 ms
+May 06, 2014 2:12:58 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 2:12:58 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 2:12:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 2:12:59 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [353] milliseconds.
+May 06, 2014 2:12:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 2:12:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 2:12:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 2:13:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 2:13:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 2:13:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 2:13:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 2:13:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 2:13:01 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 2:13:01 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 2:13:01 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2589 ms
+May 06, 2014 2:13:53 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 2:13:53 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 2:13:53 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 2:13:53 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 2:13:53 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 2:13:53 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 2:13:53 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 2:13:53 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 2:13:54 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 2:13:54 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 2:13:54 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 2:13:54 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 493 ms
+May 06, 2014 2:13:54 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 2:13:54 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 2:13:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 2:13:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 2:13:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 2:13:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 2:13:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 2:13:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 2:13:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 2:13:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 2:13:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 2:13:56 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 2:13:56 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 2:13:56 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2096 ms
+May 06, 2014 2:14:50 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 2:14:50 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 2:14:50 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 2:14:50 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 2:14:50 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 2:14:50 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 2:14:50 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 2:14:50 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 2:14:50 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 2:14:51 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 2:14:51 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 2:14:51 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 488 ms
+May 06, 2014 2:14:51 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 2:14:51 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 2:14:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 2:14:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 2:14:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 2:14:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 2:14:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 2:14:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 2:14:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 2:14:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 2:14:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 2:14:53 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 2:14:53 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 2:14:53 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2089 ms
+May 06, 2014 4:01:55 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 4:01:55 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:01:55 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:01:55 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 4:01:55 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:01:55 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:01:55 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:01:55 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:01:56 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 4:01:56 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:01:56 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:01:56 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 499 ms
+May 06, 2014 4:01:56 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 4:01:56 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 4:01:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 4:01:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 4:01:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 4:01:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 4:01:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 4:01:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 4:01:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 4:01:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 4:01:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 4:01:58 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:01:58 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:01:58 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2339 ms
+May 06, 2014 4:02:52 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 4:02:52 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:02:52 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:02:52 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 4:02:52 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:02:52 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:02:52 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:02:52 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:02:52 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 4:02:53 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:02:53 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:02:53 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 488 ms
+May 06, 2014 4:02:53 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 4:02:53 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 4:02:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 4:02:53 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AMSSProject]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:632)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1229)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1875)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.lang.NoClassDefFoundError: Lcontroles/ControlAdministracion;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2397)
+	at java.lang.Class.getDeclaredFields(Class.java:1806)
+	at org.apache.catalina.util.Introspection.getDeclaredFields(Introspection.java:106)
+	at org.apache.catalina.startup.WebAnnotationSet.loadFieldsAnnotation(WebAnnotationSet.java:261)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:140)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:400)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:876)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:371)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5355)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: controles.ControlAdministracion
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1718)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1569)
+	... 24 more
+
+May 06, 2014 4:02:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AMSSProject]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:632)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1229)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1875)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+May 06, 2014 4:02:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 4:02:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 4:02:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 4:02:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 4:02:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 4:02:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 4:02:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 4:02:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 4:02:55 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:02:55 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:02:55 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2041 ms
+May 06, 2014 4:04:34 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 4:04:34 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:04:34 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:04:34 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 4:04:34 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:04:34 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:04:34 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:04:34 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:04:35 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 4:04:35 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:04:35 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:04:35 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 484 ms
+May 06, 2014 4:04:35 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 4:04:35 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 4:04:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 4:04:35 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AMSSProject]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:632)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1229)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1875)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.lang.NoClassDefFoundError: Lcontroles/ControlAdministracion;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2397)
+	at java.lang.Class.getDeclaredFields(Class.java:1806)
+	at org.apache.catalina.util.Introspection.getDeclaredFields(Introspection.java:106)
+	at org.apache.catalina.startup.WebAnnotationSet.loadFieldsAnnotation(WebAnnotationSet.java:261)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:140)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:400)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:876)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:371)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5355)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: controles.ControlAdministracion
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1718)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1569)
+	... 24 more
+
+May 06, 2014 4:04:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AMSSProject]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:632)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1229)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1875)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+May 06, 2014 4:04:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 4:04:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 4:04:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 4:04:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 4:04:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 4:04:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 4:04:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 4:04:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 4:04:37 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:04:37 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:04:37 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2110 ms
+May 06, 2014 4:04:59 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 4:04:59 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:04:59 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:04:59 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 4:04:59 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:04:59 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:04:59 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:04:59 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:05:00 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 4:05:00 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:05:00 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:05:00 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 487 ms
+May 06, 2014 4:05:00 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 4:05:00 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 4:05:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 4:05:01 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AMSSProject]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:632)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1229)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1875)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.lang.NoClassDefFoundError: Lcontroles/ControlAdministracion;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2397)
+	at java.lang.Class.getDeclaredFields(Class.java:1806)
+	at org.apache.catalina.util.Introspection.getDeclaredFields(Introspection.java:106)
+	at org.apache.catalina.startup.WebAnnotationSet.loadFieldsAnnotation(WebAnnotationSet.java:261)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:140)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:400)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:876)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:371)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5355)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: controles.ControlAdministracion
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1718)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1569)
+	... 24 more
+
+May 06, 2014 4:05:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AMSSProject]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:632)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1229)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1875)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+May 06, 2014 4:05:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 4:05:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 4:05:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 4:05:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 4:05:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 4:05:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 4:05:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 4:05:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 4:05:02 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:05:02 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:05:02 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2134 ms
+May 06, 2014 4:05:16 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 4:05:16 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:05:16 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:05:16 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 4:05:16 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:05:16 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:05:16 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:05:16 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:05:16 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 4:05:17 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:05:17 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:05:17 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 494 ms
+May 06, 2014 4:05:17 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 4:05:17 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 4:05:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 4:05:17 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AMSSProject]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:632)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1229)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1875)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.lang.NoClassDefFoundError: Lcontroles/ControlAdministracion;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2397)
+	at java.lang.Class.getDeclaredFields(Class.java:1806)
+	at org.apache.catalina.util.Introspection.getDeclaredFields(Introspection.java:106)
+	at org.apache.catalina.startup.WebAnnotationSet.loadFieldsAnnotation(WebAnnotationSet.java:261)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:140)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:400)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:876)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:371)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5355)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: controles.ControlAdministracion
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1718)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1569)
+	... 24 more
+
+May 06, 2014 4:05:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AMSSProject]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:632)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1229)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1875)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+May 06, 2014 4:05:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 4:05:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 4:05:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 4:05:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 4:05:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 4:05:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 4:05:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 4:05:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 4:05:19 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:05:19 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:05:19 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2048 ms
+May 06, 2014 4:06:03 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 4:06:03 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:06:03 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:06:03 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 4:06:03 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:06:03 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:06:03 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:06:03 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:06:03 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 4:06:03 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:06:03 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:06:03 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 491 ms
+May 06, 2014 4:06:03 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 4:06:03 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 4:06:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 4:06:04 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AMSSProject]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:632)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1229)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1875)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.lang.NoClassDefFoundError: Lcontroles/ControlAdministracion;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2397)
+	at java.lang.Class.getDeclaredFields(Class.java:1806)
+	at org.apache.catalina.util.Introspection.getDeclaredFields(Introspection.java:106)
+	at org.apache.catalina.startup.WebAnnotationSet.loadFieldsAnnotation(WebAnnotationSet.java:261)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:140)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:400)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:876)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:371)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5355)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: controles.ControlAdministracion
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1718)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1569)
+	... 24 more
+
+May 06, 2014 4:06:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AMSSProject]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:632)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1229)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1875)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+May 06, 2014 4:06:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 4:06:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 4:06:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 4:06:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 4:06:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 4:06:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 4:06:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 4:06:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 4:06:05 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:06:05 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:06:05 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2208 ms
+May 06, 2014 4:08:38 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 4:08:38 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:08:38 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:08:38 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 4:08:38 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:08:38 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:08:38 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:08:38 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:08:56 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 4:08:56 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:08:56 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:08:56 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 481 ms
+May 06, 2014 4:08:56 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 4:08:56 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 4:08:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 4:08:57 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AMSSProject]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:632)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1229)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1875)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.lang.NoClassDefFoundError: Lcontroles/ControlAdministracion;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2397)
+	at java.lang.Class.getDeclaredFields(Class.java:1806)
+	at org.apache.catalina.util.Introspection.getDeclaredFields(Introspection.java:106)
+	at org.apache.catalina.startup.WebAnnotationSet.loadFieldsAnnotation(WebAnnotationSet.java:261)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:140)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:400)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:876)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:371)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5355)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: controles.ControlAdministracion
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1718)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1569)
+	... 24 more
+
+May 06, 2014 4:08:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AMSSProject]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:632)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1229)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1875)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+May 06, 2014 4:08:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 4:08:57 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [299] milliseconds.
+May 06, 2014 4:08:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 4:08:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 4:08:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 4:08:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 4:08:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 4:08:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 4:08:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 4:08:59 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:08:59 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:08:59 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2481 ms
+May 06, 2014 4:14:41 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 4:14:41 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:14:41 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:14:41 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 4:14:41 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:14:41 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:14:41 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:14:41 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:14:44 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 4:14:44 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:14:45 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:14:45 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 489 ms
+May 06, 2014 4:14:45 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 4:14:45 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 4:14:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 4:14:45 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AMSSProject]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:632)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1229)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1875)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.lang.NoClassDefFoundError: Lcontroles/ControlAdministracion;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2397)
+	at java.lang.Class.getDeclaredFields(Class.java:1806)
+	at org.apache.catalina.util.Introspection.getDeclaredFields(Introspection.java:106)
+	at org.apache.catalina.startup.WebAnnotationSet.loadFieldsAnnotation(WebAnnotationSet.java:261)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:140)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:400)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:876)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:371)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5355)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: controles.ControlAdministracion
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1718)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1569)
+	... 24 more
+
+May 06, 2014 4:14:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AMSSProject]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:632)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1229)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1875)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+May 06, 2014 4:14:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 4:14:46 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [295] milliseconds.
+May 06, 2014 4:14:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 4:14:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 4:14:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 4:14:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 4:14:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 4:14:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 4:14:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 4:14:47 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:14:47 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:14:47 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2539 ms
+May 06, 2014 4:15:53 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 4:15:53 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:15:54 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:15:54 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 4:15:54 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:15:54 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:15:54 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:15:54 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:16:05 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/adrian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 06, 2014 4:16:05 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:16:05 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:16:05 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 496 ms
+May 06, 2014 4:16:05 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 06, 2014 4:16:05 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 06, 2014 4:16:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/AMSSProject
+May 06, 2014 4:16:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Cajero
+May 06, 2014 4:16:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/docs
+May 06, 2014 4:16:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/examples
+May 06, 2014 4:16:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/host-manager
+May 06, 2014 4:16:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/manager
+May 06, 2014 4:16:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/proy
+May 06, 2014 4:16:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/Revista
+May 06, 2014 4:16:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/adrian/Desktop/O/Enero2014/AMSS/ULTIMA_ENTREGA/apache-tomcat-7.0.52/webapps/ROOT
+May 06, 2014 4:16:08 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:16:08 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:16:08 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2245 ms
+May 06, 2014 4:29:21 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 06, 2014 4:29:21 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:29:21 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:29:21 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 06, 2014 4:29:21 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/proy] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 4:29:21 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/Revista] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 4:29:21 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/AMSSProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 06, 2014 4:29:21 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:29:21 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 06, 2014 4:29:21 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 06, 2014 4:29:21 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"  
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee  
+           http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"  
+         version="2.5">
+
+    <!-- A continuacion deben declararse todas las Interfaces que se implementan como
+         Servlets en el sistema. Para cada Interfaz deben declararse los tags
+         <servlet> y <servlet-mapping>  
+     -->
+	<servlet>
+      <servlet-name>Abstractos</servlet-name>
+      <servlet-class>interfaces.InterfazAbstractos</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Abstractos</servlet-name>
+        <url-pattern>/Abstractos</url-pattern>
+    </servlet-mapping>  
+	 
+	 <servlet>
+      <servlet-name>Articulos</servlet-name>
+      <servlet-class>interfaces.InterfazArticulos</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Articulos</servlet-name>
+        <url-pattern>/Articulos</url-pattern>
+    </servlet-mapping> 
+	 
+    <servlet>
+      <servlet-name>Ingresar</servlet-name>
+      <servlet-class>interfaces.InterfazIngresar</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Ingresar</servlet-name>
+        <url-pattern>/Ingresar</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>Suscribirse</servlet-name>
+      <servlet-class>interfaces.InterfazSuscribirse</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Suscribirse</servlet-name>
+        <url-pattern>/Suscribirse</url-pattern>
+    </servlet-mapping>   	
+	
+	<servlet>
+      <servlet-name>Revista</servlet-name>
+      <servlet-class>interfaces.InterfazRevista</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Revista</servlet-name>
+        <url-pattern>/Revista</url-pattern>
+    </servlet-mapping> 
+	
+	<servlet>
+      <servlet-name>Ediciones</servlet-name>
+      <servlet-class>interfaces.InterfazEdiciones</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Ediciones</servlet-name>
+        <url-pattern>/Ediciones</url-pattern>
+    </servlet-mapping> 
+
+	<servlet>
+      <servlet-name>Sugerir</servlet-name>
+      <servlet-class>interfaces.InterfazSugerir</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Sugerir</servlet-name>
+        <url-pattern>/Sugerir</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+      <servlet-name>CrearNota</servlet-name>
+      <servlet-class>interfaces.InterfazCrearNota</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CrearNota</servlet-name>
+        <url-pattern>/CrearNota</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+      <servlet-name>Aprovar</servlet-name>
+      <servlet-class>interfaces.InterfazAprovar</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Aprovar</servlet-name>
+        <url-pattern>/Aprovar</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+      <servlet-name>Publicar</servlet-name>
+      <servlet-class>interfaces.InterfazPublicar</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Publicar</servlet-name>
+        <url-pattern>/Publicar</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+      <servlet-name>RenovarSuscripcion</servlet-name>
+      <servlet-class>interfaces.InterfazRenovarSuscripcion</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RenovarSuscripcion</servlet-name>
+        <url-pattern>/RenovarSuscripcion</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+      <servlet-name>Salir</servlet-name>
+      <servlet-class>interfaces.InterfazSalir</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Salir</servlet-name>
+        <url-pattern>/Salir</url-pattern>
+    </servlet-mapping>
+</web-app>
